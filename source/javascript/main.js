@@ -13,7 +13,7 @@
  * To use the default WordPress version of jQuery, go to lib/config.php and
  * remove or comment out: add_theme_support('jquery-cdn');
  * ======================================================================== */
- 
+
 (function ($) {
 
 	// Use this variable to set up the common and page specific functions. If you
@@ -35,8 +35,8 @@
 			},
 			finalize : function () {
 				// JavaScript to be fired on the home page, after the init JS
-			},
-		},
+			}
+		}
 	};
 
 	// The routing fires all common scripts, followed by the page specific scripts.
@@ -44,7 +44,7 @@
 	var UTIL = {
 		fire : function (func, funcname, args) {
 			var fire;
-			var namespace = Dolp
+			var namespace = Dolp;
 			funcname = (funcname === undefined) ? 'init' : funcname;
 			fire = func !== '';
 			fire = fire && namespace[func];
