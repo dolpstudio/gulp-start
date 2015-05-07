@@ -19,6 +19,10 @@
       "bower": ["modernizr"]
     }
   },
+  "paths": {
+    "source": "source/",
+    "dist": "public/assets/"
+  },
   "config": {
     "devUrl": "http://example.dev"
   }
