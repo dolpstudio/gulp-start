@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "javascript/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "scss/styles.scss"
+      ],
+      "main": true
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    }
+  },
+  "config": {
+    "devUrl": "http://example.dev"
+  }
+}
